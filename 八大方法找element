@@ -6,3 +6,7 @@ find_element_by_link_text()
 find_element_by_class_name()
 find_element_by_partial_link_name()
 find_element_by_tag_name()
+
+
+xpath使用方法
+//
