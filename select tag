@@ -1,0 +1,8 @@
+from selenium import webdriver
+from selenium.webdriver.support.select import Select
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.get('https://bilibili.com')
+selectelement = driver.find_element_by_xpath('')
+x = Select(selectelement)
+x.select_by_visible_text('')
