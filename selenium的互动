@@ -1,0 +1,44 @@
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+
+# open the url
+driver.get('https://www.baidu.com/')
+
+# maximize the browser
+driver.maximize_window()
+driver.minimize_window()
+
+# get title
+title = driver.title
+
+# close or quit the browser
+driver.close()
+driver.quit()
+
+# get current url
+currenturl = driver.current_url
+print(currenturl)
+
+# browser refresh
+driver.refresh()
+
+# open another url
+driver.get('https://www.bilibili.com/')
+# 覆盖之前的链接
+
+# browser back
+driver.back()
+
+# browser forward
+driver.forward()
+
+# get page source
+pagesource = driver.page_source
+print(pagesource)
+
+
+
+
+
+
