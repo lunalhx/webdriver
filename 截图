@@ -1,0 +1,11 @@
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+
+driver.maximize_window()
+
+driver.get('https://baidu.com')
+
+driver.save_screenshot('/路径/截图的名字.png')
+
+driver.close()
